@@ -2,11 +2,9 @@ public class Calculator {
     public Formula newFormula() {
         return new Formula();
     }
-
     public static enum Operation {
         SUM, SUB, MULT, DIV, POW;
     }
-
     public static class Formula {
         protected Double a, b, result;
 
